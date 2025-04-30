@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 320rem;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header .logo {
+  position: absolute;
+  top: 4rem;
+  height: 2.5rem;
+  left: 4.5rem;
+}
+header .btn {
+  position: absolute;
+  right: 4.5rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  font-size: 16px;
+  background-color: white;
+  color: #fd53c0;
+  padding-right: 24px;
+  top: 4rem;
+  border-radius: 25px;
+  border: 1px solid #fd53c0;
+}
+header .btn:hover {
+  cursor: pointer;
+  border: 1px solid hsl(321, 92%, 85%);
+ color: hsl(321, 92%, 85%);;
+
+}
+header .heading {
+  position: absolute;
+  top: 20rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 14rem;
+  font-size: 44px;
+  font-weight: bold;
+}
+header .para {
+  position: absolute;
+  top: 25rem;
+  left: 24rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+}
+header .btn2 {
+  position: absolute;
+  top: 32rem;
+  left: 31.50rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #fd53c0;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 24px 90px 24px 90px;
+
+}
+header .btn2:hover {
+  cursor: pointer;
+  background-color:#ff8ed6;
+}
+header .mockup {
+  position: absolute;
+  height: 40rem;
+  top: 44rem;
+  left: 15rem;
+}
+main .head1 {
+  font-size: 84px;
+  color: #072831;
+  position: absolute;
+  top: 92rem;
+  left: 20rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main .head2 {
+  left: 52rem;
+}
+main .com {
+  position: absolute;
+  top: 90rem;
+  left: 20rem;
+}
+main .com1 {
+  left: 52rem;
+}
+main .para2 {
+  position: absolute;
+  top: 100rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  left: 20rem;
+  color: #7d878f;
+  font-size: 22px;
+}
+main .para3 {
+  left: 54rem;
+}
+main .grow {
+  position: absolute;
+  top: 130rem;
+  left: 8rem;
+  font-size: 38px;
+}
+main .para10 {
+  position: absolute;
+  top: 134rem;
+  left: 8rem;
+  font-size: 16px;
+  color: #656f79;
+}
+main .grow1 {
+  position: absolute;
+  top: 120rem;
+  right: 8rem;
+  height: 26rem;
+}
+main .grow2 {
+  top: 174rem;
+  left: 48rem;
+}
+main .para11 {
+    top: 178rem;
+    left: 48rem;
+}
+main .flowing {
+  position: absolute;
+    top: 167rem;
+    height: 22rem;
+    left: 8rem;
+}
+main .grow3 {
+  top: 214rem;
+}
+main .para12 {
+  top: 218rem;
+  left: 8rem;
+}
+main .user {
+  position: absolute;
+    top: 207rem;
+    right: 8rem;
+    height: 24rem;
+}
+main .heading3 {
+  position:absolute;
+  top:250rem;
+  left: 23rem;
+  font-size: 36px;
+}
+main .btn2 {
+  position: absolute;
+  top: 256rem;
+  left: 31.50rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #fd53c0;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 24px 90px 24px 90px;
+}
+main .btn2:hover {
+  cursor: pointer;
+  background-color: #ff8ed6;
+}
+
+footer .top{
+  position: absolute;
+  top: 276rem;
+  height: 12rem;
+  left: 0;
+  width: 100%;
+}
+footer .box {
+    height: 32rem;
+    background-color: #01262f;
+    width: 100%;
+    top: 288rem;
+    left: 0;
+    position: absolute;
+}
+footer .box .svg {
+  position: absolute;
+  top: 6rem;
+  left: 8rem;
+}
+footer .box .head5 {
+  position: absolute;
+  color: white;
+  left: 11.50rem;
+  top: 5rem;
+  font-size: 42px;
+  font-weight: bolder;
+}
+footer .box .ftp {
+  position: absolute;
+  top: 10rem;
+  left: 8rem;
+  line-height: 1.50rem;
+  font-size:14px;
+  color:white;
+}
+footer .box .phone {
+  position: absolute;
+  top: 16rem;
+  font-size: 14px;
+  left: 8rem;
+  color: white;
+}
+footer .box .phone2 {
+  top: 19rem;
+}
+footer .box .phone .icon {
+  margin-right: 10px;
+}
+footer .box .news {
+  position: absolute;
+  top: 5.50rem;
+  font-size: 24px;
+  text-transform: uppercase;
+  left: 48rem;
+  color: white;
+}
+footer .box .fth {
+  position: absolute;
+  top:9rem;
+  left: 48rem;
+  line-height: 1.50rem;
+  font-size: 14px;
+  color: white;
+}
+footer .box .input {
+  outline: none;
+  border: none;
+  height: 2.50rem;
+  width: 18rem;
+  position: absolute;
+  right: 19rem;
+  border-radius: 10px;
+  top: 16rem;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+footer .box .btn10 {
+    position: absolute;
+    top: 16rem;
+    right: 7rem;
+    height:2.50rem;
+    outline:none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 10rem;
+    font-size: 16px;
+    background-color: #fd53c0;
+}
+footer .box .btn10:hover {
+  background-color: #ff8ed6;
+  cursor: pointer;
+}
